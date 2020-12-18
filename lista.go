@@ -198,4 +198,5 @@ func Imprimir_lista(lst Lista) {
 		fmt.Printf("%d ", Actual_lista(lst))
 		Siguiente_lista(lst)
 	}
+	fmt.Printf("\n")
 }
